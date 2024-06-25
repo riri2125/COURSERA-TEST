@@ -2,8 +2,33 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Our Menu</title>
 <style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
 
 * {
   box-sizing: border-box;
@@ -35,13 +60,16 @@ section {
 <body>
 <h1>Our Menu</h1>
 
-<div>
-  <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.</p>
-  <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla, minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus tempora alias minima laborum, provident!</p>
-  <p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam incidunt soluta expedita.
-  <section>This is regular content continuing after the the paragraph boxes.</section>
+<div class="row">
+  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 2</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 5</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
+  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
 </div>
-
 
 </body>
 </html>
